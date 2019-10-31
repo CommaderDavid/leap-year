@@ -1,5 +1,7 @@
 // Back end
-
+var leapYear = function(year) {
+  return false;
+};
 // Front end
 $(document).ready(function() {
   $("form#leap-year").submit(function(event) {
